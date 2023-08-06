@@ -5,7 +5,12 @@
  */
 const BASE_URL = 'https://api.themoviedb.org';
 
-const TOKEN = import.meta.env.VITE_API_TOKEN;
+/**
+ * IN REAL WORLD PROJECT, ENV WILL NEVER BE EXPOSED DIRECTLY, IT WILL ALWAYS BE FETCHED FROM THE ENV
+ */
+const TOKEN =
+  import.meta.env.VITE_API_TOKEN ||
+  'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2ZmVlNmQ3YmY3NmM4ZDA3NDhhZWM2OGEyNDg0ZjE0NCIsInN1YiI6IjViYzFkNzk0YzNhMzY4MmQ0YjAzMGZhNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.RIoOQlnWOMt2vRUkIOl5GaIGxgLsFEMGWhYxGq9OX04';
 
 const options = {
   method: 'GET',
