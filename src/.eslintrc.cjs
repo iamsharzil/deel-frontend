@@ -26,7 +26,7 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': 0,
     'react/function-component-definition': [
       2,
-      { namedComponents: 'function-expression' },
+      { namedComponents: 'arrow-function' },
     ],
   },
 };
