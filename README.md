@@ -7,7 +7,7 @@ This project demonstrates the implementation of an Auto complete component in Re
 - Efficient suggestions filtering using custom filtering logic.
 - Prevent API calls by implementing debounce function.
 - Search results displayed in a list, allowing users to select from the suggestions.
--     Easily navigate between results via keyboard controls.
+- Easily navigate between results via keyboard controls.
 - Scalable and Flexible components using Inversion Of Control principle and using render prop techinque
 
 ## Getting Started
